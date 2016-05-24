@@ -1,0 +1,36 @@
+STOCK
+	stock symbol
+	COMMON (type)
+		last dividend
+	PREFERRED (type)
+		fixed dividend
+		par value
+
+	calculate dividend yield
+	calculate p/e ration
+	record a trade
+	calculate stock price
+
+TRADE
+	timestamp
+	quantity of shares
+	buy or sell indicator
+	price
+
+	record
+
+EXCANGE
+	stocks
+
+	calculate all share index
+
+[calculations]
+	dividend yield = last dividend / ticker price (current price) or fixed dividend x par value (stated value) / ticker price (current price)
+	p/e ration = ticker price (current price) / dividend
+	geometric mean = 
+	stock price = 
+
+	ticker price (current price)
+	dividend
+	p
+	
